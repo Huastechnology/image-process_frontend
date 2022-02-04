@@ -1,12 +1,12 @@
 import React from 'react'
-import LayoutInternal from './utils/layouts/LayoutInternal';
-import { Typography } from '@mui/material';
+import {Router} from '@reach/router'
+import Home from './containers/Home'
+import Dashboard from './containers/Dashboard'
 const App = () => (
-  <LayoutInternal sectionTitle="Principal">
-    <Typography paragraph>
-        Hola como estas
-    </Typography>
-  </LayoutInternal>
+  <Router>
+    <Home path="/" />
+    <Dashboard path="dashboard"/>
+  </Router>
 )
 
 export default App;

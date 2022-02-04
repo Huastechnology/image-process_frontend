@@ -6,6 +6,7 @@ import ListItemIcon from '@mui/material/ListItemIcon'
 import ListItemText from '@mui/material/ListItemText'
 import { Home ,Info} from '@mui/icons-material'
 import Navbar from '../Navbar'
+import { Link } from '@reach/router'
 
 const SiderLayout= () => {
 
@@ -24,14 +25,14 @@ const SiderLayout= () => {
             <Navbar open={open} handleDrawerOpen={handleDrawerOpen}/>
             <DrawerSidebar open={open} handleDrawerClose={handleDrawerClose}>
                 <List>
-                    <ListItem>
+                    <ListItem button component={Link} to="/">
                         <ListItemIcon>
                             <Home />
                         </ListItemIcon>
                         <ListItemText primary="Home" />
                     </ListItem>
                     
-                    <ListItem>
+                    <ListItem button component={Link} to="dashboard">
                         <ListItemIcon>
                             <Info />
                         </ListItemIcon>

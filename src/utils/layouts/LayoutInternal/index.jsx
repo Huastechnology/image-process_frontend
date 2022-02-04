@@ -23,6 +23,9 @@ const LayoutInternal = ({sectionTitle,children}) => {
                         {children}
                     </div>
                 </div>
+                <footer>
+                 ©2022 by Huastechnology Inc. All rights reserved.
+                </footer>
             </Box>
         </Box>
     )
