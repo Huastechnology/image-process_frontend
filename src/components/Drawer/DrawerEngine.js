@@ -1,7 +1,7 @@
 import { styled } from '@mui/material/styles';
 
 
-export const drawerWidth = 240
+export const drawerWidth = 180
 export const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
     ({ theme, open }) => ({
       flexGrow: 1,
