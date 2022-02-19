@@ -8,11 +8,12 @@ import ChevronRightIcon from '@mui/icons-material/ChevronRight'
 import Divider from '@mui/material/Divider';
 import { drawerWidth,DrawerHeader } from './DrawerEngine'
 
+
 const DrawerSidebar = (props) => {
     const theme = useTheme()
 
     return(
-        <Drawer
+        <Drawer 
             sx={{
                 width: drawerWidth,
                 flexShrink: 0,
@@ -21,12 +22,13 @@ const DrawerSidebar = (props) => {
                     boxSizing: 'border-box',
                 },
             }}
-            variant="persistent"
+            variant="temporary"
+            //'permanent' | 'persistent' | 'temporary';
             anchor="left"
             open={props.open}
         >
             <DrawerHeader>
-                <IconButton onClick={props.handleDrawerClose}>
+                <IconButton onClick={props.handleDrawerClose} >
                     {theme.direction === 'ltr' ? <ChevronLeftIcon /> : <ChevronRightIcon />}
                 </IconButton>
             </DrawerHeader>

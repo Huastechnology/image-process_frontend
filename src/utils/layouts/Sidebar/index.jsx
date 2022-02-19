@@ -24,7 +24,7 @@ const SiderLayout= () => {
         <>
             <Navbar open={open} handleDrawerOpen={handleDrawerOpen}/>
             <DrawerSidebar open={open} handleDrawerClose={handleDrawerClose}>
-                <List>
+                <List >
                     <ListItem button component={Link} to="/">
                         <ListItemIcon>
                             <Home />

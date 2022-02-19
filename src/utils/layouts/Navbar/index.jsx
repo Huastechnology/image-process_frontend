@@ -8,8 +8,11 @@ import  Typography  from "@mui/material/Typography"
 const Navbar = (props) => {
     return(
         <>
-            <CssBaseline />
-            <AppBar position="fixed" open={props.open}>
+            <CssBaseline/>
+            <AppBar 
+            style={{backgroundColor:'#83072D'}}
+            position="fixed" 
+            open={props.open} >
                 <Toolbar>
                     <IconButton
                         color="inherit"
@@ -21,7 +24,7 @@ const Navbar = (props) => {
                          <MenuIcon />
                     </IconButton>
                     <Typography variant="h6" noWrap component="div">
-                        My App
+                        Lineal-Algebra-PDI
                     </Typography>
                 </Toolbar>
             </AppBar>

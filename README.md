@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Install 
+
+Install the proyect
+
+npm install
+npm install --save styled-components
+
 ## Available Scripts
 
 In the project directory, you can run:
