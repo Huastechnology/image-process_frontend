@@ -1,0 +1,15 @@
+.cabecera{
+    margin-bottom: 0.5em;
+}
+.cabecera{
+    max-width: 100%
+}
+.portadaTec{
+    text-align: center;
+    background: #83072D;
+}
+.portadaTec h3,p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #FFF;
+}

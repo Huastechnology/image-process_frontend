@@ -3,28 +3,10 @@
     font-weight: bold;
 
 }
-
 .content-hero {
     border-radius: 5px;
-    background: #e3f6ff;
+    background: #eaeaea;
 }
-
-.cabecera{
-    margin-bottom: 0.5em;
-}
-.cabecera img{
-    max-width: 1200px;
-}
-.portadaTec{
-    text-align: center;
-    background: #83072D;
-}
-.portadaTec h3,p{
-    margin-bottom: 0px;
-    margin-top: 0px;
-    color: #FFF;
-}
-
 .footer_hero{
     width: 100%;
     height: 50px;
